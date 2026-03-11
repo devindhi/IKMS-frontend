@@ -47,7 +47,7 @@ export default function Home() {
     formData.append("file", file);
 
     try {
-      const res = await fetch("http://127.0.0.1:8000/index-pdf", {
+      const res = await fetch("http://51.21.170.250/index-pdf", {
         method: "POST",
         body: formData,
       });

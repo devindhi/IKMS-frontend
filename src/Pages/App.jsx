@@ -29,7 +29,7 @@ function App() {
   const scrollRef = useRef(null);
 
   const { messages, sendMessage, status } = useChat({
-    transport: new DefaultChatTransport({ api: 'http://127.0.0.1:8000/qa' }),
+    transport: new DefaultChatTransport({ api: 'http://51.21.170.250/qa' }),
     body: { thread_id: threadId },
   });
 
