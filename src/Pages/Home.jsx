@@ -47,7 +47,7 @@ export default function Home() {
     formData.append("file", file);
 
     try {
-      const res = await fetch("http://51.21.170.250/index-pdf", {
+      const res = await fetch("https://ikms-api.servecounterstrike.com/index-pdf", {
         method: "POST",
         body: formData,
       });
